@@ -1,0 +1,14 @@
+# ESP-IDF generated files
+**/build/
+**/sdkconfig
+**/sdkconfig.old
+**/managed_components/
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local credentials and private configuration
+secrets/
+wifi_credentials.h
