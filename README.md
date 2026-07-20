@@ -17,6 +17,7 @@ This repository records my ESP-IDF learning projects for the CHD ESP32-S3-BOX.
 | `03_network_time_weather` | Connect Wi-Fi, synchronize Beijing time, and retrieve Seniverse weather | In progress |
 | `04_lvgl_weather_dashboard` | LVGL technology-style dashboard for live weather, forecast, and air quality | In progress |
 | `05_lvgl_interactive_dashboard` | Control the LVGL dashboard with BOOT button gestures, PWM brightness, and NVS settings | In progress |
+| `06_imu_motion_dashboard` | Read the ICM42607 over I2C, calculate attitude, and draw live LVGL curves | In progress |
 
 ## Build and flash
 
