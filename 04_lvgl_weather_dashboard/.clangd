@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [-DESP_PLATFORM]

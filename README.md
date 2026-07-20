@@ -15,6 +15,9 @@ This repository records my ESP-IDF learning projects for the CHD ESP32-S3-BOX.
 | `01_gpio_led` | Blink the on-board D9 red LED with GPIO47 | In progress |
 | `02_lcd_hello` | Initialize the 2.8-inch LCD and draw a greeting with the ILI9341 driver | In progress |
 | `03_network_time_weather` | Connect Wi-Fi, synchronize Beijing time, and retrieve Seniverse weather | In progress |
+| `04_lvgl_weather_dashboard` | LVGL technology-style dashboard for live weather, forecast, and air quality | In progress |
+| `05_lvgl_interactive_dashboard` | Control the LVGL dashboard with BOOT button gestures, PWM brightness, and NVS settings | In progress |
+| `06_imu_motion_dashboard` | Read the ICM42607 over I2C, calculate attitude, and draw live LVGL curves | In progress |
 
 ## Build and flash
 

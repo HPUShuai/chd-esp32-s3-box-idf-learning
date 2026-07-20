@@ -1,0 +1,34 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "display/lcd_lvgl.c"
+        "input/button.c"
+        "network/network.c"
+        "settings/settings.c"
+        "ui/dashboard.c"
+        "ui/weather_cn_font.c"
+        "weather/weather.c"
+    INCLUDE_DIRS
+        "."
+        "display"
+        "input"
+        "network"
+        "settings"
+        "ui"
+        "weather"
+    REQUIRES
+        esp_event
+        esp_driver_gpio
+        esp_driver_ledc
+        esp_http_client
+        esp_lcd
+        esp_lcd_ili9341
+        esp_lvgl_port
+        esp_netif
+        esp_wifi
+        json
+        lvgl
+        lwip
+        mbedtls
+        nvs_flash
+)
