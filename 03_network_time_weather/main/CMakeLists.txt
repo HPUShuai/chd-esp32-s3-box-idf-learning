@@ -1,0 +1,22 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "lcd/lcd.c"
+        "network/network.c"
+        "weather/weather.c"
+    INCLUDE_DIRS
+        "."
+        "network"
+        "weather"
+    REQUIRES
+        esp_event
+        esp_http_client
+        esp_lcd
+        esp_lcd_ili9341
+        esp_netif
+        esp_wifi
+        json
+        lwip
+        mbedtls
+        nvs_flash
+)

@@ -12,3 +12,4 @@ Thumbs.db
 # Local credentials and private configuration
 secrets/
 wifi_credentials.h
+**/private_config.h
