@@ -13,6 +13,7 @@ This repository records my ESP-IDF learning projects for the CHD ESP32-S3-BOX.
 | Project | Topic | Status |
 | --- | --- | --- |
 | `01_gpio_led` | Blink the on-board D9 red LED with GPIO47 | In progress |
+| `02_lcd_hello` | Initialize the 2.8-inch LCD and draw a greeting with the ILI9341 driver | In progress |
 
 ## Build and flash
 
